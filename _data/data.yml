@@ -7,42 +7,42 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Adrian Röfer
+    tagline: Graduate Student in Computer Science at University of Bremen
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: aroefer @at@ uni-bremen.de
+    phone: 
+    website: #blog.webjeda.com #do not add http://
+    linkedin: adrian-röfer-5ab31216a
+    github: ARoefer
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: German
         level: Native
 
-      - idiom: French
-        level: Professional
+      - idiom: English
+        level: Fluent
 
-      - idiom: Spanish
-        level: Professional
+      - idiom: Mandarin
+        level: A2
 
     interests:
-      - item: Climbing
-        link:
+      # - item: Climbing
+      #   link:
 
-      - item: Snowboarding
-        link:
+      # - item: Snowboarding
+      #   link:
 
-      - item: Cooking
-        link:
+      # - item: Cooking
+      #   link:
 
 career-profile:
     title: Career Profile
@@ -57,144 +57,144 @@ career-profile:
 
 education:
     - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+      university: University of Bremen  
+      time: 2017 - Present
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Focus on robotics and artificial intelligence, specifically robotic manipulation.
+          
+          - Thesis: Pending.
 
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: BSc in Computer Science
+      university: University of Bremen
+      time: 2013 - 2017
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Focus on robotics and artificial intelligence, specifically robotic manipulation.
 
-          - Bullet point
-          - Bullet point
+          - Thesis: A Comparison of Two Control Schemes for Obstacle Avoidance in Robotic Shelf Replenishment Tasks.
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Research Collaborator
+      time: August - September 2018
+      company: University of Michigan
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Second author on a research paper to be submitted to IROS 2019. The paper contributes to the field of indirect object search in large scale environments. Symbolic object relations are combined with metric observations to derive hypothetical object locations, guiding the search. The search itself uses a tightly integrated perception-control loop, allowing for dynamic camera control and occlusion avoidance.        
 
-          - Bullet point
-          - Bullet point
-
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Research Assistant
+      time: April - July 2018
+      company: University of Bremen
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Research assistant at the Institute for Artificial Intelligence headed by Prof. Michael Beetz, tasked with evaluating the PyBullet physics engine's simulation capabilities regarding soft bodies and force-torque sensors. Developed an object oriented, easy-to-use wrapper for the engine and built a lightweight simulator on it for fast prototyping of motion controllers.
 
-          - Bullet point
-          - Bullet point
+          - lightweight Simulator: https://aroefer.github.io/iai_bullet_sim/
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Research Intern
+      time: October 2017 - February 2018
+      company: University of Michigan
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Research internship at the Laboratory for Progress headed by Prof. Chadwicke Jenkins. 
+        Helped with the first implementation of the giskardpy motion control library. 
+        Implemented a lightweight velocity control interface and giskardpy interface for the Fetch robot.  
+        Worked on a project investigating the automatic generation of task-space motion controllers based on background knowledge. The project aimed at integrating predicates for state assessments and motion controllers tightly, allowing for a direct generation of motion controllers from predicates. The resulting system was used in the joint research project mentioned above.
 
-          - Bullet point
-          - Bullet point
+          - Giskardpy motion control library: https://github.com/SemRoCo/giskardpy
+          - Fetch control interface: https://github.com/ARoefer/fetch_giskard
+          - Gebsyas agent framework: https://github.com/ARoefer/gebsyas
+
+    - role: Visual Artist
+      time: 2017
+      company: Private Client
+      details: |
+        Created digital set extensions and did compositing work for a stop motion film using the 3D creation suite Blender.
+
+    - role: Research Assistant
+      time: April - July 2017
+      company: University of Bremen
+      details: |
+        University of Bremen}{Research assistant at the Institute for Artificial Intelligence, tasked with creating a development environment for the giskard motion control framework. The environment was implemented as RVIZ plugin and provides basic features supporting fast controller development and testing.
+
+          - Giskard IDE: https://github.com/ARoefer/giskard_ide
+
+    - role: Teaching Assistant
+      time: October 2014 - September 2016
+      company: University of Bremen
+      details: |
+        Teaching assistant for the courses Computer Science and Media I/II. Gave weekly tutorial sessions on the lecture's current topic and graded students' assignments.
+
+    - role: Contractor
+      tiem: 2014
+      company: University of Bremen
+      details: |
+        Created a tutorial on the basics of using the 3D creation suite Blender for modeling and animating of 3D geometry, as well as using Blender for camera tracking and compositing.
+
 
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    # title: Projects
+    # intro: >
+    #   You can list your side projects or open source libraries in this
+    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    # assignments:
+    #   - title: Velocity
+    #     link: "#hook"
+    #     tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+    #   - title: DevStudio
+    #     link: "#"
+    #     tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    #   - title: Tempo
+    #     link: "#"
+    #     tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    #   - title: Atom
+    #     link: "#"
+    #     tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    #   - title: Delta
+    #     link: "#"
+    #     tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    # title: Student Robotics Project - Master's Program
+    # intro: >
+    #   Students' robotics project SUTURO at the Institute for Artificial Intelligence. Goal of the project was to build a robotic café at the institutes's laboratory. Customers would be able to put in orders, which would then be prepared and delivered by a robot.
+    #   Designed motion controllers for the PR2 robot, giving it needed manipulation capabilities. Developed new programming languages, features and debugging tools for the giskard motion control framework to ease development and testing of motion controllers.      
 
-    papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+    # assignments:
+    #   - title: Footage of Generated Motions
+    #     link: https://www.youtube.com/watch?v=GgAUwfZw0AY
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+    
 
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+
+#     papers:
+
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python & C++ & various others
+        level: 100%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: ROS
+        level: 100%
 
-      - name: Angular
-        level: 98%
+      - name: Blender
+        level: 100%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Unity Game Engine & Unreal Engine 4
+        level: 100%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: PR2 & Fetch
+        level: 100%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
