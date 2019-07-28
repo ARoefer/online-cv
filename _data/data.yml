@@ -181,20 +181,23 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & C++ & various others
-        level: 100%
+      - name: Programming 
+        details: |
+          - Python 
+          - C++ 
+          - various others
 
-      - name: ROS
-        level: 100%
+      - name: Software
+        details: |
+          - ROS
+          - Blender
+          - Unity Game Engine
+          - Unreal Engine 4
 
-      - name: Blender
-        level: 100%
-
-      - name: Unity Game Engine & Unreal Engine 4
-        level: 100%
-
-      - name: PR2 & Fetch
-        level: 100%
+      - name: Robots
+        details: |
+          - PR2
+          - Fetch
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
